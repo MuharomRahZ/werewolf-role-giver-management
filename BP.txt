@@ -1,0 +1,33 @@
+=======BLUEPRINT-WWRGM=======
+#Menu awal
+1. atur jumlah player
+2. atur jumlah & jenis role
+3. acak & bagi role (print)
+4. exit
+
+=============================
+#Opsi atur jumlah player
+1. cek jumlah & nama player
+2. input nama player
+3. kembali
+
+=============================
+#Opsi atur jumlah & jenis role
+1. cek jumlah & jenis role
+2. input jenis role
+3. kembali
+
+=============================
+#[Hpseudo-algorithm] Opsi acak & bagi role
+if player == 5:
+    [jenis role yang tersedia]
+    [player]
+    assign role to player randomly
+elif 5 < player <= 12:
+    [jenis role yang tersedia]
+    [player]
+    assign role to player randomly
+elif 12 < player <= 24:
+    [jenis role yang tersedia]
+    [player]
+    assign role to player randomly
