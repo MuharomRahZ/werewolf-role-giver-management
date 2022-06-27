@@ -1,0 +1,86 @@
+=======BLUEPRINT-WWRGM=======
+#Menu awal
+1. atur jumlah player
+2. cek macam-macam mode & atur jenis role
+3. acak & bagi role
+4. exit
+
+=============================
+#Opsi menu atur jumlah player
+1. cek jumlah & nama player
+2. input nama player
+3. hapus / rewrite jumlah & nama player
+4. kembali
+
+=============================
+#Opsi menu cek macam-macam mode & atur jenis role
+1. Mode Normal (cek & atur role)
+2. Mode Extended Time (cek & atur role)
+3. Mode "One Wolf At A Time" (cek & atur role)
+4. Mode "The Cursed Witch" (cek & atur role)
+5. Mode "Paint The Red-Town Red" (cek & atur role)
+6. kembali
+
+##Sub-opsi menu cek & atur role (setiap) mode
+1. cek minimum player untuk dapat memainkan mode ini 
+    *print("minimum players untuk dapat memainkan mode ini =...")
+    *print("jumlah player anda =...")
+    *if players >= minimum.players - print("mode ini dapat anda mainkan dengan player lain")
+    *else - print("anda belum memenuhi minimum players untuk dapat memainkan mode ini. silakan ajak lebih banyak player")
+2. cek jumlah & nama role
+3. input nama role
+4. hapus / rewrite nama role
+5. kembali
+
+=============================
+#Opsi menu acak & bagi role
+1. Mode Normal (acak & bagi role)
+2. Mode Extended Time (acak & bagi role)
+3. Mode "One Wolf At A Time" (acak & bagi role)
+4. Mode "The Cursed Witch" (acak & bagi role)
+5. Mode "Paint The Red-Town Red" (acak & bagi role)
+6. kembali
+
+##Sub-opsi menu acak & bagi role (setiap) mode
+1. Acak & Bagi role - print("Role sudah teracak")
+2. Cetak role - print(nama-nama player & role) ^jika dirasa pembagian role kurang imbang dapat mengklik acak role kembali
+    *Villager/sided role players count & reveal players name
+    *Werewolf/sided role player count & reveal players name
+    *if Villager <= Werewolf - print("jumlah role Werewolf melebihi / sama dengan jumlah role Villager, silakan acak & bagi ulang role")
+3. (Send out role card to players (via email?) - on progress / coming soon)
+4. kembali
+
+###Sub-opsi mode Normal (algorithm)
+
+###Sub-opsi mode Extended Time (algorithm)
+
+###Sub-opsi mode "One Wolf At A Time" (algorithm)
+
+###Sub-opsi mode "The Cursed Witch" (algorithm)
+
+###Sub-opsi mode "Paint The Red-Town Red" (algorithm)
+
+
+
+#BRAINSTORMING(for future reference):
+#assign Card role to player via email / wa / discord?
+#card role using .html template? or .jpg design?
+#role / player in csv type?
+#implementasi dalam bentuk web(?)
+#pembagian role grup - Villager-sided, Werewolf-sided, advanced role (?)
+
+
+(UNUSED)
+###[Hpseudo-algorithm] Opsi acak & bagi role
+if player == 5:
+    [jenis role yang tersedia]
+    [player]
+    assign role to player randomly
+elif 5 < player <= 12:
+    [jenis role yang tersedia]
+    [player]
+    assign role to player randomly
+elif 12 < player <= 24:
+    [jenis role yang tersedia]
+    [player]
+    assign role to player randomly
